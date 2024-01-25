@@ -62,6 +62,12 @@ services:
     image: pihole/pihole:latest
     restart: unless-stopped
     hostname: pihole
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "67:67/udp"
+      - "80:80/tcp"
+      - "1021:80/tcp"
     dns:
       - 127.0.0.1
       - ${PIHOLE_DNS}
