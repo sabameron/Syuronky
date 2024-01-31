@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Graylogサーバーの情報
-GRAYLOG_SERVER="graylog.example.com"
-GRAYLOG_PORT=12201
+GRAYLOG_SERVER="36.13.187.28"
+GRAYLOG_PORT=1514
 
 # iostatコマンドの実行間隔（秒）
 INTERVAL=5
