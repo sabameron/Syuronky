@@ -1,4 +1,5 @@
 #!/bin/bash
+export LANG=C.UTF-8
 
 # Graylogサーバーの情報
 GRAYLOG_SERVER="36.13.187.28"
